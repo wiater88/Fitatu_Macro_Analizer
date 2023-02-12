@@ -1,4 +1,3 @@
-import com.opencsv.bean.CsvBindAndJoinByName;
 import com.opencsv.bean.CsvBindByName;
 
 public class Meal {
@@ -128,6 +127,174 @@ public class Meal {
 
     @CsvBindByName(column = "Sól (g)")
     private double salt;
+
+    public String getName() {
+        return name;
+    }
+
+    public String getMeasure() {
+        return measure;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public double getKcal() {
+        return kcal;
+    }
+
+    public double getProtein() {
+        return protein;
+    }
+
+    public double getAnimalProtein() {
+        return animalProtein;
+    }
+
+    public double getVegetableProtein() {
+        return vegetableProtein;
+    }
+
+    public double getFats() {
+        return fats;
+    }
+
+    public double getSaturatedFats() {
+        return saturatedFats;
+    }
+
+    public double getMonounsaturatedFats() {
+        return monounsaturatedFats;
+    }
+
+    public double getPolyunsaturatedFats() {
+        return polyunsaturatedFats;
+    }
+
+    public double getOmega3Acid() {
+        return omega3Acid;
+    }
+
+    public double getOmega6Acid() {
+        return omega6Acid;
+    }
+
+    public double getCarbohydrates() {
+        return carbohydrates;
+    }
+
+    public double getSugar() {
+        return sugar;
+    }
+
+    public double getCholesterol() {
+        return cholesterol;
+    }
+
+    public double getFiber() {
+        return fiber;
+    }
+
+    public double getCaffeine() {
+        return caffeine;
+    }
+
+    public double getFolicAcid() {
+        return folicAcid;
+    }
+
+    public double getVitaminA() {
+        return vitaminA;
+    }
+
+    public double getVitaminB1() {
+        return vitaminB1;
+    }
+
+    public double getVitaminB2() {
+        return vitaminB2;
+    }
+
+    public double getVitaminB5() {
+        return vitaminB5;
+    }
+
+    public double getVitaminB6() {
+        return vitaminB6;
+    }
+
+    public double getBiotin() {
+        return biotin;
+    }
+
+    public double getVitaminB12() {
+        return vitaminB12;
+    }
+
+    public double getVitaminC() {
+        return vitaminC;
+    }
+
+    public double getVitaminD() {
+        return vitaminD;
+    }
+
+    public double getVitaminE() {
+        return vitaminE;
+    }
+
+    public double getVitaminPP() {
+        return vitaminPP;
+    }
+
+    public double getVitaminK() {
+        return vitaminK;
+    }
+
+    public double getZinc() {
+        return zinc;
+    }
+
+    public double getPhosphorus() {
+        return phosphorus;
+    }
+
+    public double getIodine() {
+        return iodine;
+    }
+
+    public double getMagnesium() {
+        return magnesium;
+    }
+
+    public double getCopper() {
+        return copper;
+    }
+
+    public double getPotassium() {
+        return potassium;
+    }
+
+    public double getSelenium() {
+        return selenium;
+    }
+
+    public double getSodium() {
+        return sodium;
+    }
+
+    public double getCalcium() {
+        return calcium;
+    }
+
+    public double getIron() {
+        return iron;
+    }
+
+    public double getSalt() {
+        return salt;
+    }
 
 
 }
