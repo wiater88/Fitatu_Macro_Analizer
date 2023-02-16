@@ -21,4 +21,11 @@ public class CsvReader {
 
         return meals;
     }
+
+    public void printMeals(CsvReader reader){
+        for ( Meal m : reader.meals) {
+            System.out.println(m.toString());
+        }
+
+    }
 }

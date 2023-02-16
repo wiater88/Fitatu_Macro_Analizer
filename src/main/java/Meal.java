@@ -296,5 +296,51 @@ public class Meal {
         return salt;
     }
 
-
+    @Override
+    public String toString() {
+        return "Meal{" +
+                "name='" + name + '\'' +
+                ", measure='" + measure + '\'' +
+                ", weight=" + weight +
+                ", kcal=" + kcal +
+                ", protein=" + protein +
+                ", animalProtein=" + animalProtein +
+                ", vegetableProtein=" + vegetableProtein +
+                ", fats=" + fats +
+                ", saturatedFats=" + saturatedFats +
+                ", monounsaturatedFats=" + monounsaturatedFats +
+                ", polyunsaturatedFats=" + polyunsaturatedFats +
+                ", omega3Acid=" + omega3Acid +
+                ", omega6Acid=" + omega6Acid +
+                ", carbohydrates=" + carbohydrates +
+                ", sugar=" + sugar +
+                ", cholesterol=" + cholesterol +
+                ", fiber=" + fiber +
+                ", caffeine=" + caffeine +
+                ", folicAcid=" + folicAcid +
+                ", vitaminA=" + vitaminA +
+                ", vitaminB1=" + vitaminB1 +
+                ", vitaminB2=" + vitaminB2 +
+                ", vitaminB5=" + vitaminB5 +
+                ", vitaminB6=" + vitaminB6 +
+                ", biotin=" + biotin +
+                ", vitaminB12=" + vitaminB12 +
+                ", vitaminC=" + vitaminC +
+                ", vitaminD=" + vitaminD +
+                ", vitaminE=" + vitaminE +
+                ", vitaminPP=" + vitaminPP +
+                ", vitaminK=" + vitaminK +
+                ", zinc=" + zinc +
+                ", phosphorus=" + phosphorus +
+                ", iodine=" + iodine +
+                ", magnesium=" + magnesium +
+                ", copper=" + copper +
+                ", potassium=" + potassium +
+                ", selenium=" + selenium +
+                ", sodium=" + sodium +
+                ", calcium=" + calcium +
+                ", iron=" + iron +
+                ", salt=" + salt +
+                '}';
+    }
 }
